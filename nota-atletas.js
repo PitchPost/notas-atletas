@@ -16,6 +16,6 @@ let atletas = [
    notas: [10, 10, 10, 9, 9.5]
  }
 ];
-console.log("Bruno Castro)
+console.log("Bruno Castro")
 
             
