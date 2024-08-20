@@ -20,7 +20,7 @@ let atletas = [
  function calcularMedia(atletas) {
    atletas.forEach(atleta => {
      let notaOrdem = atleta.notas.sort((a, b) => a - b);
-     let notasComputa = notaOrdem.slice(1, 4); // Corrected slice syntax
+     let notasComputa = notaOrdem.slice(1, 4); 
      let soma = 0;
      notasComputa.forEach(nota => {
        soma += nota;
