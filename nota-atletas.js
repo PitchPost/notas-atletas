@@ -29,7 +29,7 @@ let atletas = [
      
      console.log(`Atleta: ${atleta.nome}`);
      console.log(`Notas Obtidas: ${atleta.notas.join(", ")}`);
-     console.log(`Média Válida: ${mediaValida.toFixed(2)}`); // Rounded to 2 decimal places
+     console.log(`Média Válida: ${mediaValida.toFixed(2)}`); 
      console.log('');
    });
  }
